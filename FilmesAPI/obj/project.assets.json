@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repo\\Alura-APIRest\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
+      "projectUniqueName": "C:\\repo\\Alura-APIRest\\alura-apirest\\FilmesAPI\\FilmesAPI.csproj",
       "projectName": "FilmesAPI",
-      "projectPath": "C:\\repo\\Alura-APIRest\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
+      "projectPath": "C:\\repo\\Alura-APIRest\\alura-apirest\\FilmesAPI\\FilmesAPI.csproj",
       "packagesPath": "C:\\Users\\ferre\\.nuget\\packages\\",
-      "outputPath": "C:\\repo\\Alura-APIRest\\FilmesAPI\\FilmesAPI\\obj\\",
+      "outputPath": "C:\\repo\\Alura-APIRest\\alura-apirest\\FilmesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ferre\\AppData\\Roaming\\NuGet\\NuGet.Config",

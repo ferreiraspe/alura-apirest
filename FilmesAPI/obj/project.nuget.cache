@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgiWj7EkuWx9uoDubUuhdI64ch1KuHFxNkYwc48yzlR5BiYkjbwTgQcqbYnwbYvgaSxKvncXq/qgoNzoIQufdw==",
+  "dgSpecHash": "Ohl4elqRjUJF4ClKxY6dRAngP7Ix8QD0kefcD0SKzWBYu/M+K49fgJEXI6srv7HEZdf6YiuJGPwIXQSQ6gKdNQ==",
   "success": true,
-  "projectFilePath": "C:\\repo\\Alura-APIRest\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
+  "projectFilePath": "C:\\repo\\Alura-APIRest\\alura-apirest\\FilmesAPI\\FilmesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ferre\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
