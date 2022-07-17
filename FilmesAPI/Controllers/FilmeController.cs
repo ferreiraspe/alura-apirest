@@ -1,7 +1,6 @@
 ﻿using FilmesAPI.Data;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -41,6 +40,25 @@ namespace FilmesAPI.Controllers
                 return Ok(filme);
             }
             return NotFound();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult AtualizarFilme(int id, [FromBody] Filme filmeNovo)
+        {
+            Filme filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
+            if (filme == null)
+            {
+                return NotFound();
+            }
+
+            filme.Titulo = filmeNovo.Titulo;
+            filme.Genero = filmeNovo.Genero;
+            filme.Duracao = filmeNovo.Duracao;
+            filme.Diretor = filmeNovo.Diretor;
+
+            _context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
