@@ -10,7 +10,11 @@ namespace FilmesAPI.Controllers
     [Route("[controller]")]
     public class FilmeController : ControllerBase
     {
+<<<<<<< HEAD
         private readonly FilmeContext _context;
+=======
+        private FilmeContext _context;
+>>>>>>> ea9d207 (feature: implementing persistence and data recovery in the database)
 
         public FilmeController(FilmeContext context)
         {
