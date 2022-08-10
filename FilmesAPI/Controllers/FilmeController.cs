@@ -10,7 +10,7 @@ namespace FilmesAPI.Controllers
     [Route("[controller]")]
     public class FilmeController : ControllerBase
     {
-        private FilmeContext _context;
+        private readonly FilmeContext _context;
 
         public FilmeController(FilmeContext context)
         {
