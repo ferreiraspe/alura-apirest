@@ -250,6 +250,8 @@ _Pvt_Extensions
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+Migrations/
+
 
 # Paket dependency manager
 .paket/paket.exe
