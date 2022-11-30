@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace FilmesAPI.Models
@@ -12,12 +13,13 @@ namespace FilmesAPI.Models
         [Required(ErrorMessage = "O campo de nome é obrigatório")]
         public string Nome { get; set; }
 
-        [JsonIgnore]
         public virtual Endereco Endereco { get; set; }
         public int EnderecoId{ get; set; }
 
         public virtual Gerente Gerente { get; set; }
 
         public int GerenteId { get; set; }
+
+        public virtual List<Sessao> Sessoes { get; set; }
     }
 }
